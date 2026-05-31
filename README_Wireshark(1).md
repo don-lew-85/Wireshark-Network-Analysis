@@ -279,9 +279,3 @@ tshark -i eth0 -w capture.pcapng -c 1000
 | File management | Save a capture, close Wireshark, reopen it, and load the file — confirm all packets are there |
 
 ---
-
-## 📝 Notes
-
-Save your `.pcapng` files alongside this repository. A packet capture file is tangible proof of your network analysis skills — far more compelling in an interview than saying "I know Wireshark."
-
-When an interviewer asks about network analysis experience — this is your answer.
