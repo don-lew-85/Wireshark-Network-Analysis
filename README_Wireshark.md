@@ -20,7 +20,7 @@
 
 The diagram below shows how traffic flows from the internet through your network and into Wireshark. Understanding this flow is what makes everything in this lab click.
 
-![Wireshark Capture Architecture](/diagrams/wireshark-architecture.svg)
+![Wireshark Capture Architecture](/diagrams/wireshark-architecture(1).svg)
 
 ---
 
@@ -195,6 +195,7 @@ An **A record** (Address record) maps a domain name to an IPv4 address. When you
 
 > ✅ What you just saw: your machine sent a DNS query asking for the A record for `google.com`. The DNS server replied with an IP address. Your browser then used that IP to make the actual connection. In the real world, unexpected DNS queries to unusual domains are often the first sign of malware calling home to a command-and-control server.
 
+![DNS-query](screenshots/DNS-query.jpg)
 ---
 
 ### Exercise B — Watch the TCP Three-Way Handshake
@@ -212,6 +213,8 @@ An **A record** (Address record) maps a domain name to an IPv4 address. When you
 | 3rd packet | ACK | Your machine: *Got it. Connection is now open. Ready to send data.* |
 
 > ✅ If you see a SYN but no SYN-ACK, the connection was refused or the server is unreachable. If you see a RST (reset) packet, the connection was forcibly closed. These two patterns are the most common things network engineers look for when diagnosing connectivity problems.
+
+![TCP-3-way-handshake](screenshots/TCP-3-way-handshake.jpg)
 
 ---
 
