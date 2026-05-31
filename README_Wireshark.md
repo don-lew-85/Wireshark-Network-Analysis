@@ -20,7 +20,7 @@
 
 The diagram below shows how traffic flows from the internet through your network and into Wireshark. Understanding this flow is what makes everything in this lab click.
 
-![Wireshark Capture Architecture](./diagrams/wireshark-architecture.svg)
+![Wireshark Capture Architecture](/diagrams/wireshark-architecture.svg)
 
 ---
 
